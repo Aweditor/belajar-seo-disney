@@ -6,34 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Games | Disney Online Malaysia</title>
-    <meta name="description" content="ini adalah semua games yang tersedia di Disney Online Malaysia, silahkan pilih salah satu game yang ingin anda mainkan">
+    <meta name="description"
+        content="Ini adalah semua games yang tersedia di Disney Online Malaysia, silahkan pilih salah satu game yang ingin anda mainkan.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Pilihan Game Online Malaysia</h1>
+    <header>
+        <h1>Pilihan Game Online Malaysia</h1>
+        <p>Temukan pilihan permainan yang tersedia di Disney Online.</p>
+    </header>
 
-    <a href="index.html">Kembali ke Home</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="promotion.html">Promotion</a>
+        <a href="privacy.html">Privacy</a>
+    </nav>
 
-    <section>
-        <h2>Pilihan Game</h2>
+    <main>
+        <section>
+            <h2>Pilihan Game</h2>
+            <p>Pilih permainan yang ingin anda lihat informasinya.</p>
 
-        <article class="game-card">
+            <article class="game-card">
+                <h3>Sweet Bonanza</h3>
 
-            <h3>Sweet Bonanza</h3>
+                <img src="image/Sweet-Bonanza.jpg" alt="Sweet Bonanza game">
 
-            <img src="image/Sweet-Bonanza.jpg" alt="Sweet Bonanza game">
-
-            <button onclick="openGame()">
-                Download
-            </button>
-
-        </article>
-    </section>
-
+                <button onclick="openGame()">
+                    Download
+                </button>
+            </article>
+        </section>
+    </main>
 
     <div id="game-popup" class="game-popup">
-
         <div class="popup-content">
 
             <button onclick="closeGame()">X</button>
@@ -62,8 +72,13 @@
             </button>
 
         </div>
-
     </div>
+
+    <footer>
+        <p>© 2026 Disney Online</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
