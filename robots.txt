@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://belajar-seo-disney1.vercel.app/sitemap.xml
+Sitemap: https://belajar-seo-disney.vercel.app/sitemap.xml
